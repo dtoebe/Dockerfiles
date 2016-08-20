@@ -9,6 +9,8 @@
 
 FROM codenvy/debian_jre
 
+MAINTAINER Daniel Toebe
+
 # Daniel Toebe - Node version change
 ENV NODE_VERSION=6.4.0 \
     NODE_PATH=/usr/local/lib/node_modules
